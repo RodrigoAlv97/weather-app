@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#content{
+    display: grid;
+    grid-template-rows: 2fr 17fr  0.8fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header{
+    background-color: #424242;
+}
+
+#main{
+    background-color: #e1e1e1;
+}
+
+#footer{
+    background-color: #424242;
+}

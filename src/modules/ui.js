@@ -11,9 +11,9 @@ const searchBar = document.querySelector("#searchBar");
 function showData() {
   locationName.textContent = currentLocation.getName();
   temp.textContent = currentLocation.getTemp();
-  min.textContent = currentLocation.getMin();
-  max.textContent = currentLocation.getMax();
-  wind.textContent = currentLocation.getWind();
+  min.textContent = 'Min today: ' +currentLocation.getMin();
+  max.textContent = 'Max today: ' +currentLocation.getMax();
+  wind.textContent = 'Wind: ' +currentLocation.getWind();
 }
 
 function showIcon() {
